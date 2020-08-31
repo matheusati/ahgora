@@ -15,11 +15,8 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('pesquisar', function () {
     return view('teste.pesquisar');
 })->name('pesquisar');
+
 
 Route::get('busca', 'Controlador@buscar')->name('busca');

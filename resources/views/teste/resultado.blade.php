@@ -39,6 +39,8 @@
                     @endforeach
                 </tbody>
             </table>
+            <br>
+            <a href="{{route('pesquisar')}}">Voltar</a>
         </div>
     </body>
 </html>

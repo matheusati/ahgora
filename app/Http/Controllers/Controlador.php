@@ -24,7 +24,6 @@ class Controlador extends Controller
             $youtubeService = new Google_Service_YouTube($cliente);
             $titulosDescricoes = "";
 
-
             $resultadosPesquisa = $youtubeService->search->listSearch(
                 'id,snippet',
                 [
